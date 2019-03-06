@@ -1,8 +1,5 @@
-# Clang Libtooling Sample
-A docker image for clanglibtooling including a tool to modify source code
-
 # About this Repository
-A Dockerfile for LibtoolingSameple.
+This is a dockerfile for clanglibtooling sample including a tool to modify source code
 
 
 Prerequisites  
