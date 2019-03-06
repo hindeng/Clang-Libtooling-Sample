@@ -41,6 +41,11 @@ int main(void) {
   double target = 2.0;   //need to change to double
   long double target2 = 2;   //need to change to long double
   int val = 4;
+  int val = 4;
+  do_math(&val);
+  printf("abc\n");
+  return result;
+}
 ```
 
 Prerequisites  
