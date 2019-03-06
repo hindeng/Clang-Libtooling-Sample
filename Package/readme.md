@@ -2,7 +2,7 @@
 
 This is `test.c`:
 
-```<c++>
+```diff
 //The header is commented because handling header needs additional effort.
 //#include <stdio.h>
 
@@ -13,7 +13,7 @@ void do_math(int *x) {
 
 int main(void) {
   double result = -1;
-  long double target = 2.0;  //need to change to double
++  long double target = 2.0;  //need to change to double
   int target2 = 2; //need to change to long double
   int val = 4;
   do_math(&val);
@@ -24,7 +24,7 @@ int main(void) {
 
 This is what we want our final code would be.
 
-```<c++>
+```diff
 //The header is commented because handling header needs additional effort.
 //#include <stdio.h>
 
