@@ -1,5 +1,5 @@
 # About this Repository
-This is a dockerfile for clanglibtooling sample including a tool to modify source code. Our goal is to use clang libtooling to modify the types of the target variables in test.c . 
+This is a dockerfile for clanglibtooling sample including a tool to modify source code. Our goal is to use clang libtooling to modify the types of the target variables in `/Package/test.c` . 
 
 
 Prerequisites  
