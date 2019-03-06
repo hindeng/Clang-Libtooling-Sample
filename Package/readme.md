@@ -7,14 +7,14 @@ This is `test.c`:
 //#include <stdio.h>
 
 void do_math(int *x) {
-  double target3 = 1; // need to change to int
+  double target3 = 1;   // need to change to int
   *x += 5;
 }
 
 int main(void) {
   double result = -1;
-<font color="red">long double target = 2.0;  //need to change to double</font>
-  int target2 = 2; //need to change to long double
+  long double target = 2.0;   //need to change to double
+  int target2 = 2;   //need to change to long double
   int val = 4;
   do_math(&val);
   printf("abc\n");
@@ -29,14 +29,14 @@ This is what we want our final code would be.
 //#include <stdio.h>
 
 void do_math(int *x) {
-  int target3 = 1; // need to change to int
+  int target3 = 1;   // need to change to int
   *x += 5;
 }
 
 int main(void) {
   double result = -1;
-  double target = 2.0;  //need to change to double
-  long double target2 = 2; //need to change to long double
+  double target = 2.0;   //need to change to double
+  long double target2 = 2;   //need to change to long double
   int val = 4;
   do_math(&val);
   printf("abc\n");
