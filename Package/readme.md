@@ -2,6 +2,7 @@
 
 This is `test.c`:
 
+```<c++>
 //The header is commented because handling header needs additional effort.
 //#include <stdio.h>
 
@@ -19,3 +20,4 @@ int main(void) {
   printf("abc\n");
   return result;
 }
+```
