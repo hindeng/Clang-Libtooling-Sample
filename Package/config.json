@@ -1,0 +1,25 @@
+{
+  "config": [
+    {
+      "localVar": {
+        "function": "main",
+        "name": "target",
+        "type": "double"
+      }
+    },
+    {
+      "localVar": {
+        "function": "do_math",
+        "name": "target3",
+        "type": "int"
+      }
+    },
+    {
+      "localVar": {
+        "function": "main",
+        "name": "target2",
+        "type": "long double"
+      }
+    }
+  ]
+}
