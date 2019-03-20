@@ -55,11 +55,18 @@ To use this sample, Docker are required to be installed first，
 
 Usage  
 --------------------------------------  
-1. Clone this repository.
-2. Change to `xuan-project` directory.
-3. Run your Docker application. I would recommend to maximize the swap and memory that docker is able to use. Otherwise, docker may crash while building image. You can find this setting in Preferences->Advanced. I used 12GiB memory and 4GiB swap. You may also want to increase the disk image size to about 100GiB(It is in Preferences->Disk)
-4. Run `docker build -t libtoolingsample .`.(This step takes several hours to complete. It took me 4.5 hours.)
-5. Run `docker run -it libtoolingsample`.
+1. Get the docker image. There are two ways to do this .<br/> 
+
+   ① Build the image locally
+      1.  Clone this repository. <br/>
+      2.  Change to `Clang-Libtooling-Sample` directory. <br/>
+      3.  Run your Docker application. I would recommend to maximize the swap and memory that docker is able to use.        Otherwise, docker may crash while building image. You can find this setting in Preferences->Advanced. I used 12GiB memory and 4GiB swap. You may also want to increase the disk image size to about 100GiB(It is in Preferences->Disk) <br/>
+      4.  Run `docker build -t 474460783/libtoolingsample .` . <br/>
+   
+   ② Pull my image from docker hub
+      1. Or you could run `docker pull 474460783/libtoolingsample`. <br/>
+
+2. Run `docker run -it 474460783/libtoolingsample`.
 
 # Running Demo
 
