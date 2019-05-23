@@ -25,7 +25,7 @@ int main(void) {
 }
 ```
 
-This is what we want our final code would be.
+This is what we want our final code to be.
 
 ```c++
 //The header is commented because handling header needs additional effort.
